@@ -1,0 +1,112 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+  padding: 0;
+    
+ -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+    
+    
+      background: linear-gradient(143deg, #f69890, #f2e39c, #a2f4ab, #a6edec, #9fa6ed, #e2a0e3, #eda8a8);
+    background-size: 1000% 5000%;
+
+    -webkit-animation: RGB-gradient-BG 300s ease infinite;
+    -moz-animation: RGB-gradient-BG 300s ease infinite;
+    -o-animation: RGB-gradient-BG 300s ease infinite;
+    animation: RGB-gradient-BG 300s ease infinite;
+}
+
+@-webkit-keyframes RGB-gradient-BG {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes RGB-gradient-BG {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-o-keyframes RGB-gradient-BG {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes RGB-gradient-BG {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  border-radius: 20px;
+  background-color: rgba(120, 100, 60, 0.1);
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+serif{
+	padding: 15px;
+}
+.error{ color: #B71C1C; }
+#userActions{
+	display: inline-block;
+	height: 150px;
+	vertical-align: middle;
+	text-align: center;
+	color: aliceblue;
+	background-color: #FFFFFF;
+	border: solid 2px #333333;
+	border-radius: 10px;
+    width: 350px;
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#userActions input{
+	width: 150px;
+	margin: auto;
+}
+#imgPrime{ margin-left: 10px; display: inline-block; max-height: 160px; max-width: 280px; margin-top: 20px; margin-bottom: 20px;}
+
+.input{
+  width: 200px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+t1{
+    color: azure;
+    text-shadow: 0 2px 1px rgba(11, 11, 11, 0.2);
+    font-size: 60px;
+}
+
+p{
+    color: azure;
+    text-shadow: 0 2px 1px rgba(11, 11, 11, 0.2);
+    font-size: 16px;
+}
+
+p1{
+    color: rgb(41, 41, 41);
+    text-shadow: 0 2px 1px rgba(156, 156, 156, 0.2);
+    font-size: 20px;
+}
+
+.label{
+    color: azure;
+    text-shadow: 0 3px 1px rgba(11, 11, 11, 0.2);
+    font-size: 26px;
+}
