@@ -3,8 +3,8 @@
   "isVotingEnabled": false,
   "canUsersSendInPictures": false,
   "priceFirstPlace": {
-    "priceName": "",
-    "pricePictureURL": ""
+    "priceName": "banane",
+    "pricePictureURL": "banane"
   },
   "priceSecondPlace": {
     "priceName": "",
@@ -14,6 +14,6 @@
     "priceName": "",
     "pricePictureURL": ""
   },
-  "votingLink": "https://www.VOTINGLINKHIER.com",
-  "eventTimeSpanText": "Das Event läuft von {Datum} bis {Datum}..."
+  "votingLink": "VOTING LINK",
+  "eventTimeSpanText": "Das event ist vorbei :("
 }
