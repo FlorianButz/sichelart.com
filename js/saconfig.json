@@ -1,0 +1,19 @@
+{
+  "isEventActive": false,
+  "isVotingEnabled": false,
+  "canUsersSendInPictures": false,
+  "priceFirstPlace": {
+    "priceName": "",
+    "pricePictureURL": ""
+  },
+  "priceSecondPlace": {
+    "priceName": "",
+    "pricePictureURL": ""
+  },
+  "priceThirdPlace": {
+    "priceName": "",
+    "pricePictureURL": ""
+  },
+  "votingLink": "https://www.VOTINGLINKHIER.com",
+  "eventTimeSpanText": "Das Event läuft von {Datum} bis {Datum}..."
+}
