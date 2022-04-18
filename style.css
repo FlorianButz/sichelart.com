@@ -396,6 +396,7 @@ h4{
 
 
 .preis-block:hover{
+  filter: brightness(1);
   transform: translate(0px, -30px) scale(1.1);
   box-shadow: 0 5px 15px rgba(11, 11, 11, 0.2);
   transition: 0.5s all ease;
@@ -420,6 +421,7 @@ h4{
 }
 
 .preis-middle:hover{
+  filter: brightness(1);
   transform: translate(0px, -50px) scale(1.1, 1.2);
   box-shadow: 0 5px 15px rgba(11, 11, 11, 0.2);
   transition: 0.5s all ease;
