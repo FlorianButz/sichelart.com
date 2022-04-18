@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(47, 51, 59);
+}
+
+h1{
+    font-size: 80px;
+    color: rgb(216, 216, 216);
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-bottom: 600px;
+    padding: 13px 40px;
+    text-shadow: 0 2px 1px rgba(11, 11, 11, 0.2);
+  }
+
+  .middle{
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    width: 85%;
+    border-radius: 20px;
+    background-color: rgba(120, 100, 60, 0.1);
+    transform: translate(-50%,-50%);
+    text-align: center;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+    transition: 0.2s ease-in;
+  }
